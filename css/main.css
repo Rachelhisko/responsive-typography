@@ -10,8 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   color: #222;
+  font: Crimson;
 }
 
 *, *::before, *::after {
@@ -20,6 +20,9 @@ html {
 
 article {
   max-width: 43em;
+  position: absolute;
+  left: 35%;
+  transform: translateX(-50%);
 }
 
 article h1 {
@@ -46,4 +49,16 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
